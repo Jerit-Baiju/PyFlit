@@ -41,14 +41,14 @@ git clone https://github.com/Jerit-Baiju/PyFlit.git
 
 ```py
 from flask import Flask
-from pyflit import page
+from pyflit import Page
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
     # INITIALIZING PAGE
-    index = page('index')
+    index = Page('index')
     # ADD PAGE TITLE
     index.title('Jerit Baiju')
     # ADD CSS

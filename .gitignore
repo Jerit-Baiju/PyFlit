@@ -1,3 +1,4 @@
 /build
 /dist
 /pyflit.egg-info
+/env
