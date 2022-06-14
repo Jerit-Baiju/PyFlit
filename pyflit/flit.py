@@ -30,7 +30,7 @@ class Page:
     def __init__(self, name):
         self.name = name.capitalize()
         self.__errs__ = []
-        self.title = 'Document'
+        self.title = self.name
         self.__welcome__ = f"<center><h1 class='fw-light'>PyFlit</h1></center><h2 class='fw-light'>Template : {self.name} <br> Running Successful</h2>"
         self.__content__ = ""
         try:
@@ -109,7 +109,7 @@ class Page:
         else:
             self.__errs__.append(f'please add an empty var like this : const {var} = "" ')
 
-    def check_err(self):
+    def __check_err__(self):
         if self.__errs__ == []:
             return self.__op__
         else:
@@ -126,4 +126,4 @@ class Page:
     def export(self):
         self.__op__ = self.__op__.replace('{{title}}',self.title)
         self.__clear__()
-        return self.check_err()
+        return self.__check_err__()

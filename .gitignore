@@ -2,3 +2,6 @@
 /dist
 /pyflit.egg-info
 /env
+index.html
+run.html
+test.py
