@@ -1,5 +1,3 @@
-from distutils.core import setup
-
 import setuptools
 
 
@@ -8,10 +6,10 @@ def readme() -> str:
         README = f.read()
     return README
 
-setup(
+setuptools.setup(
     name="pyflit",
     packages=setuptools.find_packages(),
-    version="2.3",
+    version="2.3.1",
     license="MIT",
     description="PyFlit provides you to add components, pages, and it has many other features.",
     author="Jerit Baiju",
