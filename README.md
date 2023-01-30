@@ -3,9 +3,9 @@ Pyflit is a Python Package with many helpful features for [FLASK](https://pypi.o
 
 # Links
 
-- **Source - [GitHub](https://jerit.herokuapp.com/github)**
-- **My WebSite - [Jerit Baiju](https://jerit.herokuapp.com)**
-- **Contact Me - [WhatsApp](https://jerit.herokuapp.com/whatsapp)**
+- **Source - [GitHub](https://jerit.ml/github)**
+- **My WebSite - [Jerit Baiju](https://jerit.ml)**
+- **Contact Me - [WhatsApp](https://jerit.ml/whatsapp)**
 
 ## Installation
 
