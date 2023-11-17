@@ -11,7 +11,7 @@ def readme() -> str:
 setup(
     name="pyflit",
     packages=setuptools.find_packages(),
-    version="2.2.1",
+    version="2.2.2",
     license="MIT",
     description="PyFlit provides you to add components, pages, and it has many other features.",
     author="Jerit Baiju",
